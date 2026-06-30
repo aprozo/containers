@@ -18,6 +18,8 @@ f5742718da7bd1d078ddc8423011a82ef2e3c759
 deb4f17d93dbe012403614245334f7c73fcc086f
 0d64b2bab72a99441f042b663e4bc993ec0db45d
 a77a7ed0d2630466cac71165026387b1381b058a
+bb6cd78da2a0c213508820fd27e322f5582e1e68
+bafae38c2e3ac848a48f89a12a065a501d2a0511
 ---
 ## Optional hash table with comma-separated file list
 ## For these commits, the cherry-pick will be restricted to the listed files only.
@@ -33,3 +35,5 @@ read -r -d '' SPACKPACKAGES_CHERRYPICKS_FILES <<- \
 ## deb4f17d93dbe012403614245334f7c73fcc086f: fix: add latest osg-ca-cert
 ## 0d64b2bab72a99441f042b663e4bc993ec0db45d: osg-ca-certs: depends on gmake and perl, type build
 ## a77a7ed0d2630466cac71165026387b1381b058a: py-pynacl: depends on gmake, type build
+## bb6cd78da2a0c213508820fd27e322f5582e1e68: py-throttler: add v1.2.3
+## bafae38c2e3ac848a48f89a12a065a501d2a0511: py-throttler: fix typo
